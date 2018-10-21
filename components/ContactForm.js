@@ -5,7 +5,7 @@ var ContactForm = React.createClass({
   
     render: function() {
       return (
-        <form className={contactForm}>
+        <form className={'contactForm'}>
             <input
               type={'text'}
               placeholder={'Nazwisko'}
