@@ -8,12 +8,12 @@ var ContactForm = React.createClass({
         <form className={'contactForm'}>
             <input
               type={'text'}
-              placeholder={'Nazwisko'}
+              placeholder={'Imię'}
               value={this.props.contact.firstName} />
             
             <input
               type={'text'}
-              placeholder={'Imię'}
+              placeholder={'Nazwisko'}
               value={this.props.contact.lastName} />
             
             <input
@@ -21,7 +21,7 @@ var ContactForm = React.createClass({
               placeholder={'Email'}
               value={this.props.contact.email} />
             <button type={'submit'}>
-                {'Dodaj kontakt'}
+                Dodaj kontakt
             </button>
         </form>
       )
