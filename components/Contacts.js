@@ -9,7 +9,7 @@
       });
   
       return (
-        <ul className={contactsList}> 
+        <ul className={'contactsList'}> 
            {contacts}
         </ul>
       )
